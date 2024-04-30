@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Pet-Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Pet-Gallery, a simple web application showcasing a gallery of pet images. This project is built using React.js with TypeScript and styled using Styled Components. It incorporates features for viewing and interacting with pet images, including search functionality, sorting options, and selection of images for download.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Gallery View**: Display a collection of pet images in a responsive gallery layout.
+- **Search**: Filter pet images by title using a search bar.
+- **Sorting**: Sort pet images alphabetically by name in ascending or descending order.
+- **Image Selection**: Allow users to select multiple images and download the selected ones.
+- **Navigation**: Navigate between different sections using a simple navbar.
+- **State Management**: Utilize React Redux for efficient state management.
+- **Routing**: Implement client-side routing with React Router for seamless navigation.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React.js**: JavaScript library for building user interfaces.
+- **TypeScript**: Adds static typing to JavaScript to enhance code quality and developer productivity.
+- **Styled Components**: Library for styling React components with CSS using tagged template literals.
+- **React Router**: Library for declarative routing and navigation in React applications.
+- **React Redux**: Library for managing application state and global data flow in React applications.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Live Demo
+Link: https://petgalleryts.netlify.app/
 
-### `npm test`
+## ScreenShots
+<img width="1840" alt="Screenshot 2024-04-29 at 9 33 25 PM" src="https://github.com/jaypatel31/pet-gallery/assets/59785863/8b3a939e-82aa-4a66-b3c4-430ca58c4b70">
+<img width="1840" alt="Screenshot 2024-04-29 at 9 33 17 PM" src="https://github.com/jaypatel31/pet-gallery/assets/59785863/29147ae3-16e2-42ec-9366-9bb6c30b7d27">
+<img width="1840" alt="Screenshot 2024-04-29 at 9 33 01 PM" src="https://github.com/jaypatel31/pet-gallery/assets/59785863/297e9542-91bc-49d5-9b1c-1ea0e9092b6b">
+<img width="1840" alt="Screenshot 2024-04-29 at 9 32 21 PM" src="https://github.com/jaypatel31/pet-gallery/assets/59785863/87cd9357-042b-4cc1-be00-d1917b716d06">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/jaypatel31/pet-gallery.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+   
+    ```bash
+    cd pet-gallery
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    npm start
+    ```
+4. Open http://localhost:3000 in your browser to view the app.
